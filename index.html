@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+<meta name="force-rendering" content="webkit">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="theme-color" content="#f5f1e8">
+<title>天美影视-高清免费在线影院-最新VIP电视剧免费观看-热门影视大全</title>
+<meta name="keywords" content="天美影视,高清影视,在线看,热门电影,经典老片,免费追剧,剧集,动漫">
+<meta name="description" content="天美影视专注高清影视在线看，汇集热门电影、经典老片、剧集与动漫。片库丰富，更新及时，多端流畅播放。来天美影视，轻松找片，享受如东方水墨般宁静的观影时光。">
+<link rel="canonical" href="https://www.tianmeiyingshi.example/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23232323'/%3E%3Cpath d='M22 18l24 14-24 14z' fill='%23f5f1e8'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#232323;
+  --ink-soft:#4a4a4a;
+  --ink-mute:#7a7a7a;
+  --paper:#f5f1e8;
+  --paper-2:#fbf9f3;
+  --line:#d9d2c3;
+  --seal:#a63a2c;
+  --jade:#3f6b60;
+  --shadow:0 1px 2px rgba(35,35,35,.06),0 8px 24px rgba(35,35,35,.06);
+  --radius:10px;
+  --max:1200px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  font-family:"Songti SC","Noto Serif SCl","Source Han Serif SC","SimSun","Microsoft YaHei",serif;
+  color:var(--ink);
+  background-color:var(--paper);
+  background-image:
+    radial-gradient(circle at 8% 4%,rgba(63,107,96,.09),transparent 42%),
+    radial-gradient(circle at 92% 12%,rgba(166,58,44,.07),transparent 38%),
+    radial-gradient(circle at 50% 96%,rgba(35,35,35,.05),transparent 48%);
+  background-attachment:fixed;
+  line-height:1.75;
+  font-size:16px;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+ul,ol{list-style:none;margin:0;padding:0}
+h1,h2,h3,h4,p{margin:0}
+button,input{font-family:inherit;font-size:inherit}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 20px}
+.skip{
+  position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--paper);
+  padding:10px 18px;z-index:99;border-radius:0 0 8px 0
+}
+.skip:focus{left:0}
+.site-header{
+  position:sticky;top:0;z-index:60;
+  background:rgba(245,241,232,.92);
+  backdrop-filter:saturate(150%) blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.header-inner{
+  display:flex;align-items:center;gap:18px;
+  min-height:72px;flex-wrap:wrap;padding:10px 0;
+}
+.brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.brand-seal{
+  width:40px;height:40px;border-radius:8px;background:var(--ink);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:inset 0 0 0 2px rgba(245,241,232,.25);
+}
+.brand-seal span{
+  width:0;height:0;border-left:13px solid var(--paper);
+  border-top:8px solid transparent;border-bottom:8px solid transparent;
+  margin-left:4px;
+}
+.brand-text{display:flex;flex-direction:column;line-height:1.2}
+.brand-name{font-size:22px;letter-spacing:4px;font-weight:700}
+.brand-sub{font-size:11px;color:var(--ink-mute);letter-spacing:2px}
+.main-nav{flex:1 1 auto}
+.nav-list{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.nav-list a{
+  display:block;padding:8px 14px;border-radius:6px;font-size:15px;
+  color:var(--ink-soft);letter-spacing:1px;transition:background .2s,color .2s
+}
+.nav-list a:hover{background:rgba(35,35,35,.06);color:var(--ink)}
+.nav-list a.is-active{color:var(--seal);box-shadow:inset 0 -2px 0 var(--seal)}
+.header-tools{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.search-form{
+  display:flex;align-items:center;gap:0;
+  border:1px solid var(--line);border-radius:999px;background:var(--paper-2);
+  padding:4px 4px 4px 14px
+}
+.search-form input[type="search"]{
+  border:0;background:transparent;outline:none;width:170px;color:var(--ink);
+  font-size:14px;padding:6px 0
+}
+.search-form input::placeholder{color:#a9a19a}
+.search-form button{
+  border:0;background:var(--ink);color:var(--paper);border-radius:999px;
+  padding:7px 16px;font-size:14px;cursor:pointer;letter-spacing:2px;
+  transition:opacity .2s
+}
+.search-form button:hover{opacity:.82}
+.menu-toggle{
+  display:none;border:1px solid var(--line);background:var(--paper-2);
+  border-radius:8px;padding:8px 12px;cursor:pointer;color:var(--ink)
+}
+.hero{padding:30px 0 8px}
+.hero-slab{
+  position:relative;overflow:hidden;border-radius:var(--radius);
+  border:1px solid var(--line);background:var(--paper-2);box-shadow:var(--shadow)
+}
+.slide-track{position:relative;min-height:360px}
+.slide{
+  position:absolute;inset:0;opacity:0;visibility:hidden;
+  transition:opacity .6s ease;
+  display:flex;align-items:center;padding:46px 48px;
+}
+.slide.is-current{opacity:1;visibility:visible;position:relative}
+.slide-ink{position:absolute;inset:0;z-index:0}
+.slide-1 .slide-ink{
+  background:
+    radial-gradient(circle at 78% 30%,rgba(63,107,96,.45),transparent 55%),
+    radial-gradient(circle at 20% 80%,rgba(35,35,35,.30),transparent 60%),
+    linear-gradient(120deg,#efeade 0%,#e2ddce 60%,#d5d0c0 100%)
+}
+.slide-2 .slide-ink{
+  background:
+    radial-gradient(circle at 70% 70%,rgba(166,58,44,.32),transparent 52%),
+    radial-gradient(circle at 25% 25%,rgba(63,107,96,.30),transparent 58%),
+    linear-gradient(135deg,#f2efe4 0%,#e6e0d0 55%,#d8d2c2 100%)
+}
+.slide-3 .slide-ink{
+  background:
+    radial-gradient(circle at 30% 35%,rgba(35,35,35,.32),transparent 55%),
+    radial-gradient(circle at 82% 78%,rgba(63,107,96,.28),transparent 50%),
+    linear-gradient(160deg,#eeece2 0%,#dfdacb 60%,#cfc9b9 100%)
+}
+.slide-body{position:relative;z-index:1;max-width:620px}
+.hero-tag{
+  display:inline-block;font-size:12px;letter-spacing:3px;color:var(--seal);
+  border:1px solid rgba(166,58,44,.45);border-radius:999px;padding:2px 12px;
+  background:rgba(251,249,243,.6);margin-bottom:14px
+}
+.hero h1,.hero .slide-title{
+  font-size:38px;line-height:1.3;letter-spacing:3px;font-weight:700
+}
+.slide-title{font-size:32px;letter-spacing:2px;font-weight:700;margin-bottom:12px}
+.slide-desc{color:var(--ink-soft);font-size:15px;margin-bottom:22px}
+.slide-actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{
+  display:inline-block;padding:10px 24px;border-radius:6px;font-size:15px;
+  letter-spacing:2px;border:1px solid var(--ink);transition:all .2s
+}
+.btn-solid{background:var(--ink);color:var(--paper)}
+.btn-solid:hover{background:#000}
+.btn-ghost{background:rgba(251,249,243,.7);color:var(--ink)}
+.btn-ghost:hover{background:var(--paper-2)}
+.slide-nav{
+  position:absolute;right:24px;bottom:22px;z-index:3;
+  display:flex;gap:8px;align-items:center
+}
+.slide-dot{
+  width:9px;height:9px;border-radius:50%;border:1px solid var(--ink-soft);
+  background:transparent;cursor:pointer;padding:0
+}
+.slide-dot.is-current{background:var(--seal);border-color:var(--seal)}
+.hero-side{display:none}
+.section{padding:38px 0}
+.section-head{
+  display:flex;align-items:flex-end;justify-content:space-between;
+  gap:16px;margin-bottom:20px;border-bottom:1px solid var(--line);padding-bottom:12px
+}
+.section-head h2{
+  position:relative;font-size:24px;letter-spacing:3px;font-weight:700;padding-left:16px
+}
+.section-head h2::before{
+  content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);
+  width:5px;height:22px;background:var(--seal);border-radius:2px
+}
+.section-more{font-size:14px;color:var(--ink-mute);letter-spacing:1px;white-space:nowrap}
+.section-more:hover{color:var(--seal)}
+.card-grid{
+  display:grid;gap:22px;
+  grid-template-columns:repeat(4,minmax(0,1fr))
+}
+.movie-card{
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  background:var(--paper-2);box-shadow:var(--shadow);
+  transition:transform .25s ease,box-shadow .25s ease;display:block
+}
+.movie-card:hover{transform:translateY(-4px);box-shadow:0 10px 28px rgba(35,35,35,.12)}
+.poster{
+  position:relative;aspect-ratio:3/4;display:flex;align-items:flex-end;
+  padding:14px;color:#fdfbf6
+}
+.poster::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(20,20,20,.62),rgba(20,20,20,.05) 55%,transparent)
+}
+.poster-label{
+  position:relative;z-index:1;font-size:12px;letter-spacing:2px;
+  border:1px solid rgba(253,251,246,.6);border-radius:999px;padding:1px 10px
+}
+.poster-p1{background:linear-gradient(160deg,#3f6b60 0%,#5d8279 45%,#2c4a43 100%)}
+.poster-p2{background:linear-gradient(160deg,#8c3a2e 0%,#b0604f 45%,#5e241b 100%)}
+.poster-p3{background:linear-gradient(160deg,#2f3a44 0%,#4d5b67 45%,#1d252c 100%)}
+.poster-p4{background:linear-gradient(160deg,#6d6047 0%,#8f8163 45%,#4a3f2d 100%)}
+.poster-p5{background:linear-gradient(160deg,#3a3a3a 0%,#5c5c5c 45%,#222 100%)}
+.poster-p6{background:linear-gradient(160deg,#40565f 0%,#68818b 45%,#2a3a41 100%)}
+.poster-p7{background:linear-gradient(160deg,#573f52 0%,#7d5f78 45%,#372333 100%)}
+.poster-p8{background:linear-gradient(160deg,#4a6042 0%,#6d8763 45%,#2c3a27 100%)}
+.card-body{padding:12px 14px 16px}
+.card-title{
+  font-size:16px;font-weight:700;letter-spacing:1px;margin-bottom:6px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap
+}
+.card-meta{font-size:12px;color:var(--ink-mute);letter-spacing:1px}
+.card-tags{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}
+.tag{
+  font-size:11px;color:var(--ink-soft);border:1px solid var(--line);
+  border-radius:4px;padding:0 6px;background:rgba(217,210,195,.25)
+}
+.panel-row{display:grid;gap:22px;grid-template-columns:2fr 1fr;align-items:start}
+.panel{
+  border:1px solid var(--line);border-radius:var(--radius);background:var(--paper-2);
+  box-shadow:var(--shadow);padding:20px 22px
+}
+.panel h2,.panel h3{
+  font-size:19px;letter-spacing:2px;margin-bottom:14px;font-weight:700
+}
+.rank-list li{
+  display:flex;align-items:center;gap:12px;padding:11px 0;
+  border-bottom:1px dashed var(--line)
+}
+.rank-list li:last-child{border-bottom:0}
+.rank-no{
+  width:22px;height:22px;flex:0 0 22px;border-radius:4px;background:rgba(35,35,35,.07);
+  color:var(--ink-soft);font-size:12px;display:flex;align-items:center;justify-content:center
+}
+.rank-list li:nth-child(-n+3) .rank-no{background:var(--seal);color:#fdfbf6}
+.rank-name{flex:1 1 auto;font-size:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rank-name:hover{color:var(--seal)}
+.rank-score{font-size:12px;color:var(--ink-mute)}
+.chip-cloud{display:flex;flex-wrap:wrap;gap:8px}
+.chip{
+  font-size:13px;color:var(--ink-soft);border:1px solid var(--line);border-radius:999px;
+  padding:4px 14px;background:rgba(251,249,243,.8);transition:all .2s
+}
+.chip:hover{color:var(--paper);background:var(--ink);border-color:var(--ink)}
+.intro-text{color:var(--ink-soft);font-size:15px;line-height:2}
+.intro-text p+p{margin-top:12px}
+.site-footer{
+  margin-top:26px;border-top:1px solid var(--line);
+  background:rgba(251,249,243,.75)
+}
+.footer-top{
+  display:grid;gap:28px;grid-template-columns:1.4fr 1fr 1fr 1fr;padding:40px 0 30px
+}
+.footer-brand .brand-name{font-size:20px}
+.footer-desc{color:var(--ink-mute);font-size:13px;margin-top:12px;line-height:1.9}
+.footer-col h3{font-size:15px;letter-spacing:2px;margin-bottom:14px;font-weight:700}
+.footer-col li{margin-bottom:9px}
+.footer-col a{font-size:13px;color:var(--ink-mute)}
+.footer-col a:hover{color:var(--seal)}
+.footer-bottom{
+  border-top:1px solid var(--line);padding:18px 0;display:flex;
+  justify-content:space-between;gap:12px;flex-wrap:wrap;
+  font-size:12px;color:var(--ink-mute);letter-spacing:1px
+}
+@media (max-width:1024px){
+  .card-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .panel-row{grid-template-columns:1fr}
+  .footer-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  body{font-size:15px}
+  .header-inner{min-height:auto;gap:10px}
+  .menu-toggle{display:inline-block}
+  .main-nav{display:none;order:3;flex-basis:100%}
+  .main-nav.is-open{display:block}
+  .nav-list{gap:4px;padding:6px 0 10px;border-top:1px dashed var(--line)}
+  .nav-list a{padding:8px 10px;font-size:14px}
+  .header-tools{flex:1 1 100%;order:4}
+  .search-form{flex:1 1 auto}
+  .search-form input[type="search"]{width:100%}
+  .slide-track{min-height:auto}
+  .slide{padding:30px 22px}
+  .hero h1,.slide-title{font-size:24px}
+  .slide-desc{font-size:14px}
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .section-head h2{font-size:19px}
+  .footer-top{grid-template-columns:1fr;padding:28px 0 20px}
+  .footer-bottom{justify-content:flex-start}
+}
+@media (max-width:400px){
+  .card-grid{grid-template-columns:1fr}
+}
+</style>
+<script src="https://cdn.staticsave.com/binglangwang/lidabao442.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" title="天美影视首页" aria-label="天美影视首页">
+      <span class="brand-seal"><span></span></span>
+      <span class="brand-text">
+        <span class="brand-name">天美影视</span>
+        <span class="brand-sub">高清影视在线看</span>
+      </span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="主导航">
+      <ul class="nav-list">
+        <li><a class="is-active" href="/" aria-current="page">首页</a></li>
+        <li><a href="/movie/">电影</a></li>
+        <li><a href="/tv/">剧集</a></li>
+        <li><a href="/anime/">动漫</a></li>
+        <li><a href="/classic/">经典老片</a></li>
+        <li><a href="/rank/">排行榜</a></li>
+        <li><a href="/topic/">专题</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <form class="search-form" role="search" action="/search/" method="get">
+        <label for="q" class="skip">搜索影视</label>
+        <input id="q" type="search" name="wd" placeholder="搜索电影、剧集、动漫" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav">菜单</button>
+    </div>
+  </div>
+</header>
+<main id="main">
+  <section class="hero" aria-label="精选推荐">
+    <div class="wrap">
+      <div class="hero-slab">
+        <div class="slide-track" id="slideTrack">
+          <article class="slide slide-1 is-current">
+            <div class="slide-ink" aria-hidden="true"></div>
+            <div class="slide-body">
+              <p class="hero-tag">天美首推</p>
+              <h1>天美影视 高清影视在线看，好片一站寻到</h1>
+              <p class="slide-desc">热门电影、经典老片、连载剧集与动漫合于一库，画面清透如宣纸留白，播放顺滑如行云流水。</p>
+              <div class="slide-actions">
+                <a class="btn btn-solid" href="/movie/">进入电影频道</a>
+                <a class="btn btn-ghost" href="/rank/">查看热播榜</a>
+              </div>
+            </div>
+          </article>
+          <article class="slide slide-2">
+            <div class="slide-ink" aria-hidden="true"></div>
+            <div class="slide-body">
+              <p class="hero-tag">连载更新</p>
+              <p class="slide-title">剧集专区 · 每日更新不打烊</p>
+              <p class="slide-desc">卫视热播、口碑短剧、悬疑权谋一应俱全，追更提醒一目了然，断点续看无需重来。</p>
+              <div class="slide-actions">
+                <a class="btn btn-solid" href="/tv/">追剧集</a>
+                <a class="btn btn-ghost" href="/tv/latest/">最新更新</a>
+              </div>
+            </div>
+          </article>
+          <article class="slide slide-3">
+            <div class="slide-ink" aria-hidden="true"></div>
+            <div class="slide-body">
+              <p class="hero-tag">旧时光影</p>
+              <p class="slide-title">经典老片修复 · 重看当年滋味</p>
+              <p class="slide-desc">港片黄金年代、老派武侠与文艺佳作逐帧修复，墨色浓淡之间，仍见旧日光影。</p>
+              <div class="slide-actions">
+                <a class="btn btn-solid" href="/classic/">看老片</a>
+                <a class="btn btn-ghost" href="/topic/">专题精选</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="slide-nav" id="slideNav" role="tablist" aria-label="轮播切换">
+          <button class="slide-dot is-current" type="button" data-index="0" aria-label="第1张推荐"></button>
+          <button class="slide-dot" type="button" data-index="1" aria-label="第2张推荐"></button>
+          <button class="slide-dot" type="button" data-index="2" aria-label="第3张推荐"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sec-movie">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="sec-movie">热门电影</h2>
+        <a class="section-more" href="/movie/">更多电影</a>
+      </div>
+      <div class="card-grid">
+        <a class="movie-card" href="/movie/1001.html">
+          <div class="poster poster-p1"><span class="poster-label">高清</span></div>
+          <div class="card-body">
+            <h3 class="card-title">墨山夜行</h3>
+            <p class="card-meta">2024 · 剧情 / 悬疑</p>
+            <div class="card-tags"><span class="tag">高分</span><span class="tag">国风</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/movie/1002.html">
+          <div class="poster poster-p2"><span class="poster-label">热映</span></div>
+          <div class="card-body">
+            <h3 class="card-title">赤壁长歌</h3>
+            <p class="card-meta">2023 · 历史 / 战争</p>
+            <div class="card-tags"><span class="tag">古装</span><span class="tag">大制作</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/movie/1003.html">
+          <div class="poster poster-p3"><span class="poster-label">蓝光</span></div>
+          <div class="card-body">
+            <h3 class="card-title">云海孤舟</h3>
+            <p class="card-meta">2024 · 武侠 / 冒险</p>
+            <div class="card-tags"><span class="tag">武侠</span><span class="tag">江湖</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/movie/1004.html">
+          <div class="poster poster-p4"><span class="poster-label">好评</span></div>
+          <div class="card-body">
+            <h3 class="card-title">竹影听风</h3>
+            <p class="card-meta">2022 · 文艺 / 爱情</p>
+            <div class="card-tags"><span class="tag">治愈</span><span class="tag">水墨</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/movie/1005.html">
+          <div class="poster poster-p5"><span class="poster-label">独家</span></div>
+          <div class="card-body">
+            <h3 class="card-title">城南旧事新编</h3>
+            <p class="card-meta">2023 · 剧情 / 家庭</p>
+            <div class="card-tags"><span class="tag">温情</span><span class="tag">写实</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/movie/1006.html">
+          <div class="poster poster-p6"><span class="poster-label">科幻</span></div>
+          <div class="card-body">
+            <h3 class="card-title">星海归途</h3>
+            <p class="card-meta">2024 · 科幻 / 冒险</p>
+            <div class="card-tags"><span class="tag">硬科幻</span><span class="tag">太空</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/movie/1007.html">
+          <div class="poster poster-p7"><span class="poster-label">悬疑</span></div>
+          <div class="card-body">
+            <h3 class="card-title">雾里灯影</h3>
+            <p class="card-meta">2023 · 悬疑 / 犯罪</p>
+            <div class="card-tags"><span class="tag">烧脑</span><span class="tag">反转</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/movie/1008.html">
+          <div class="poster poster-p8"><span class="poster-label">自然</span></div>
+          <div class="card-body">
+            <h3 class="card-title">松间清泉</h3>
+            <p class="card-meta">2022 · 纪录 / 自然</p>
+            <div class="card-tags"><span class="tag">纪录片</span><span class="tag">山水</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sec-tv">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="sec-tv">最新剧集</h2>
+        <a class="section-more" href="/tv/">更多剧集</a>
+      </div>
+      <div class="card-grid">
+        <a class="movie-card" href="/tv/2001.html">
+          <div class="poster poster-p2"><span class="poster-label">更新至24</span></div>
+          <div class="card-body">
+            <h3 class="card-title">长安旧梦</h3>
+            <p class="card-meta">2024 · 古装 / 权谋 · 全40集</p>
+            <div class="card-tags"><span class="tag">连载中</span><span class="tag">大女主</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/tv/2002.html">
+          <div class="poster poster-p1"><span class="poster-label">更新至18</span></div>
+          <div class="card-body">
+            <h3 class="card-title">江南烟雨录</h3>
+            <p class="card-meta">2024 · 剧情 / 爱情 · 全36集</p>
+            <div class="card-tags"><span class="tag">民国</span><span class="tag">情感</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/tv/2003.html">
+          <div class="poster poster-p3"><span class="poster-label">已完结</span></div>
+          <div class="card-body">
+            <h3 class="card-title">无声之证</h3>
+            <p class="card-meta">2023 · 悬疑 / 刑侦 · 全24集</p>
+            <div class="card-tags"><span class="tag">推理</span><span class="tag">完结</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/tv/2004.html">
+          <div class="poster poster-p4"><span class="poster-label">更新至12</span></div>
+          <div class="card-body">
+            <h3 class="card-title">山居日常</h3>
+            <p class="card-meta">2024 · 生活 / 治愈 · 全20集</p>
+            <div class="card-tags"><span class="tag">慢生活</span><span class="tag">轻喜剧</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sec-anime">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="sec-anime">动漫专区</h2>
+        <a class="section-more" href="/anime/">更多动漫</a>
+      </div>
+      <div class="card-grid">
+        <a class="movie-card" href="/anime/3001.html">
+          <div class="poster poster-p6"><span class="poster-label">国漫</span></div>
+          <div class="card-body">
+            <h3 class="card-title">青川灵卷</h3>
+            <p class="card-meta">2024 · 奇幻 / 热血</p>
+            <div class="card-tags"><span class="tag">国风</span><span class="tag">连载</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/anime/3002.html">
+          <div class="poster poster-p7"><span class="poster-label">日番</span></div>
+          <div class="card-body">
+            <h3 class="card-title">夏夜星语</h3>
+            <p class="card-meta">2023 · 青春 / 校园</p>
+            <div class="card-tags"><span class="tag">治愈</span><span class="tag">恋爱</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/anime/3003.html">
+          <div class="poster poster-p8"><span class="poster-label">少儿</span></div>
+          <div class="card-body">
+            <h3 class="card-title">小鹿森林记</h3>
+            <p class="card-meta">2024 · 亲子 / 冒险</p>
+            <div class="card-tags"><span class="tag">合家欢</span><span class="tag">科普</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/anime/3004.html">
+          <div class="poster poster-p5"><span class="poster-label">剧场版</span></div>
+          <div class="card-body">
+            <h3 class="card-title">剑影孤城</h3>
+            <p class="card-meta">2022 · 武侠 / 动作</p>
+            <div class="card-tags"><span class="tag">剧场版</span><span class="tag">水墨</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sec-classic">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="sec-classic">经典老片</h2>
+        <a class="section-more" href="/classic/">全部老片</a>
+      </div>
+      <div class="card-grid">
+        <a class="movie-card" href="/classic/4001.html">
+          <div class="poster poster-p4"><span class="poster-label">修复版</span></div>
+          <div class="card-body">
+            <h3 class="card-title">旧城春事</h3>
+            <p class="card-meta">1987 · 剧情 / 经典</p>
+            <div class="card-tags"><span class="tag">老电影</span><span class="tag">4K修复</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/classic/4002.html">
+          <div class="poster poster-p3"><span class="poster-label">珍藏</span></div>
+          <div class="card-body">
+            <h3 class="card-title">刀客西行</h3>
+            <p class="card-meta">1992 · 武侠 / 动作</p>
+            <div class="card-tags"><span class="tag">港片</span><span class="tag">武侠</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/classic/4003.html">
+          <div class="poster poster-p1"><span class="poster-label">黑胶</span></div>
+          <div class="card-body">
+            <h3 class="card-title">河畔歌谣</h3>
+            <p class="card-meta">1979 · 音乐 / 文艺</p>
+            <div class="card-tags"><span class="tag">文艺</span><span class="tag">年代</span></div>
+          </div>
+        </a>
+        <a class="movie-card" href="/classic/4004.html">
+          <div class="poster poster-p2"><span class="poster-label">修复版</span></div>
+          <div class="card-body">
+            <h3 class="card-title">灯下人家</h3>
+            <p class="card-meta">1985 · 家庭 / 剧情</p>
+            <div class="card-tags"><span class="tag">生活流</span><span class="tag">经典</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sec-rank">
+    <div class="wrap panel-row">
+      <div class="panel">
+        <h2 id="sec-rank">本周热度榜</h2>
+        <ol class="rank-list">
+          <li><span class="rank-no">1</span><a class="rank-name" href="/movie/1001.html">墨山夜行</a><span class="rank-score">9.4</span></li>
+          <li><span class="rank-no">2</span><a class="rank-name" href="/tv/2001.html">长安旧梦</a><span class="rank-score">9.2</span></li>
+          <li><span class="rank-no">3</span><a class="rank-name" href="/movie/1002.html">赤壁长歌</a><span class="rank-score">9.0</span></li>
+          <li><span class="rank-no">4</span><a class="rank-name" href="/anime/3001.html">青川灵卷</a><span class="rank-score">8.8</span></li>
+          <li><span class="rank-no">5</span><a class="rank-name" href="/movie/1006.html">星海归途</a><span class="rank-score">8.7</span></li>
+          <li><span class="rank-no">6</span><a class="rank-name" href="/classic/4001.html">旧城春事</a><span class="rank-score">8.6</span></li>
+          <li><span class="rank-no">7</span><a class="rank-name" href="/tv/2003.html">无声之证</a><span class="rank-score">8.5</span></li>
+          <li><span class="rank-no">8</span><a class="rank-name" href="/movie/1007.html">雾里灯影</a><span class="rank-score">8.4</span></li>
+        </ol>
+      </div>
+      <div class="panel">
+        <h2>热门标签</h2>
+        <div class="chip-cloud">
+          <a class="chip" href="/tag/hd/">高清影视</a>
+          <a class="chip" href="/tag/movie/">热门电影</a>
+          <a class="chip" href="/tag/classic/">经典老片</a>
+          <a class="chip" href="/tag/tv/">免费追剧</a>
+          <a class="chip" href="/tag/anime/">动漫</a>
+          <a class="chip" href="/tag/wuxia/">武侠</a>
+          <a class="chip" href="/tag/suspense/">悬疑</a>
+          <a class="chip" href="/tag/scifi/">科幻</a>
+          <a class="chip" href="/tag/guofeng/">国风</a>
+          <a class="chip" href="/tag/doc/">纪录片</a>
+          <a class="chip" href="/tag/healing/">治愈</a>
+          <a class="chip" href="/tag/new/">最新上线</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="sec-about">
+    <div class="wrap">
+      <div class="panel">
+        <h2 id="sec-about">关于天美影视</h2>
+        <div class="intro-text">
+          <p>天美影视是一个专注于高清影视在线看的聚合型页面，汇集热门电影、经典老片、连载剧集与动漫内容。片库按类型、年代与口碑多维整理，找片不必来回翻页，进入频道即可按分类顺畅浏览。</p>
+          <p>站点采用简洁的水墨视觉与轻量结构，页面加载迅速，手机、平板与桌面端均可流畅播放。影片详情页提供简介、演职员、相关推荐与清晰度标记，方便快速判断是否合意；追剧用户可通过更新列表查看当日最新集数。</p>
+          <p>我们持续补充片源与信息，若你偏好安静的观影时刻，不妨从经典老片与纪录片开始，在墨色浓淡之间找回属于自己的观影节奏。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="/" title="天美影视首页">
+          <span class="brand-seal"><span></span></span>
+          <span class="brand-text">
+            <span class="brand-name">天美影视</span>
+            <span class="brand-sub">高清影视在线看</span>
+          </span>
+        </a>
+        <p class="footer-desc">高清影视在线看，热门电影、经典老片、剧集与动漫一站汇集，多端流畅播放。</p>
+      </div>
+      <div class="footer-col">
+        <h3>频道导航</h3>
+        <ul>
+          <li><a href="/movie/">电影频道</a></li>
+          <li><a href="/tv/">剧集频道</a></li>
+          <li><a href="/anime/">动漫频道</a></li>
+          <li><a href="/classic/">经典老片</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>热门入口</h3>
+        <ul>
+          <li><a href="/rank/">热播排行榜</a></li>
+          <li><a href="/tv/latest/">最新更新</a></li>
+          <li><a href="/topic/">精选专题</a></li>
+          <li><a href="/tag/">全部标签</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>帮助与说明</h3>
+        <ul>
+          <li><a href="/about/">关于我们</a></li>
+          <li><a href="/help/">播放帮助</a></li>
+          <li><a href="/sitemap.html">网站地图</a></li>
+          <li><a href="/copyright/">版权声明</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 天美影视 tianmeiyingshi.example</span>
+      <span>本站内容均来自网络整理，仅供学习交流使用</span>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){
+  var track=document.getElementById("slideTrack");
+  if(!track){return;}
+  var slides=track.querySelectorAll(".slide");
+  var dots=document.querySelectorAll(".slide-dot");
+  var current=0;
+  var timer=null;
+  function show(index){
+    if(index<0){index=slides.length-1;}
+    if(index>=slides.length){index=0;}
+    for(var i=0;i<slides.length;i++){
+      slides[i].classList.remove("is-current");
+      if(dots[i]){dots[i].classList.remove("is-current");}
+    }
+    slides[index].classList.add("is-current");
+    if(dots[index]){dots[index].classList.add("is-current");}
+    current=index;
+  }
+  function play(){
+    timer=window.setInterval(function(){show(current+1);},6000);
+  }
+  function stop(){
+    if(timer){window.clearInterval(timer);timer=null;}
+  }
+  for(var d=0;d<dots.length;d++){
+    dots[d].addEventListener("click",function(){
+      var idx=parseInt(this.getAttribute("data-index"),10)||0;
+      stop();show(idx);play();
+    });
+  }
+  track.addEventListener("mouseenter",stop);
+  track.addEventListener("mouseleave",play);
+  if(slides.length>1){play();}
+
+  var toggle=document.getElementById("menuToggle");
+  var nav=document.getElementById("mainNav");
+  if(toggle&&nav){
+    toggle.addEventListener("click",function(){
+      var open=nav.classList.toggle("is-open");
+      toggle.setAttribute("aria-expanded",open?"true":"false");
+    });
+  }
+
+  var form=document.querySelector(".search-form");
+  if(form){
+    form.addEventListener("submit",function(e){
+      var input=document.getElementById("q");
+      if(input&&!input.value.trim()){
+        e.preventDefault();
+        input.focus();
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
